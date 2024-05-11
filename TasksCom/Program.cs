@@ -10,7 +10,7 @@
 
 
             ConsoleKeyInfo key = Console.ReadKey(true);
-            Console.ReadKey(true);
+            
             if (key.Key == ConsoleKey.E)
             {
                 WTTC();
@@ -36,13 +36,13 @@
 
                 ConsoleKeyInfo key = Console.ReadKey(true);
 
-                Console.ReadKey(true);
+                
                 if (key.Key == ConsoleKey.A)
                 {
                     Console.WriteLine("-----------PROGRAM #1------------");
                     Task1();
                     Console.WriteLine("Do you want to run task2");
-                    Console.ReadKey(true);
+                    
                 }
 
                 if (key.Key == ConsoleKey.B)
