@@ -42,7 +42,7 @@
                 {
                     Console.WriteLine("-----------PROGRAM #1------------");
                     Task1();
-                    Console.WriteLine("Do you want to run task2");
+                    Console.WriteLine("Do you want to run Program A or B:");
                     
                 }
 
@@ -51,7 +51,7 @@
                     //isRunning = true;
                     Console.WriteLine("-----------PROGRAM #2------------");
                     Task2();
-                    Console.WriteLine("Do you want to run task1");
+                    Console.WriteLine("Do you want to run Program A or B:");
 
                 }
                
