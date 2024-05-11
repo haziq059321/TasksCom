@@ -29,6 +29,7 @@
 
         static void WTTC()
         {
+            bool isrunning = false;
             Console.WriteLine("Press A program 1 and B for program 2");
             while (true)
             {
@@ -50,9 +51,10 @@
                     //isRunning = true;
                     Console.WriteLine("-----------PROGRAM #2------------");
                     Task2();
+                    Console.WriteLine("Do you want to run task1");
 
                 }
-
+               
 
                 if (key.Key == ConsoleKey.Q)
                 {
